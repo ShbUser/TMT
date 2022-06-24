@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    
+}
+body{
+    font-family: "Overpass", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.15rem;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #000;
+    text-align: left;
+
+}
+.head{
+    display: flex;
+    width: 100%;
+    
+    background-color: white;   
+}
+
+.img-fluid-logo{
+    width: 75%;
+    
+}
+.logo{
+    margin-top: 1.5em;
+    margin-left: 010em;
+}
+
+.toggle-btn{
+
+    position: absolute;
+    left: 85%;
+    top: 10%;
+}
+.toggle-btn span{
+    display: block;
+    background-color: black;
+    width: 23px;
+    height: 4px;
+    margin: 6px;
+}
+.wrapper{
+    margin-top: 2cm;
+}
+.container{
+    height: 80%;
+    width: 100%;
+    
+}
+.container-subMain{
+    width: 70%;
+    margin-left: 12em;
+    
+}
+.container-sub{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 70%;
+    margin-left: 11em;
+    margin-top: 10em;
+}
+.font-color{
+    color: #e4032e;    
+}
+.caption{
+    color: #e4032e;    
+    font-family: Overpass, Roboto, Helvetica Neue, Arial, sans-serif;
+    font-size: calc(.1rem + 1.5vw);
+}
+.caption-white{
+    color:white;    
+    font-family: Overpass, Roboto, Helvetica Neue, Arial, sans-serif;
+    font-size: calc(.1rem + 1.5vw);
+   
+}
+.image-div{
+        background-size: cover;
+        height: 250px;
+        width: 340px;        
+}
+.container a:hover{
+    background-color: #e4032e;
+    color: white;
+}
+
+.btn-btn-outline-primary{
+
+font-family: "Overpass", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+
+
+text-decoration: none;
+display: inline-block;
+font-weight: 700;
+text-align: center;
+border: 1px solid transparent;
+padding: 0.75rem 2rem;
+font-size: 1rem;
+line-height: 1.4;
+color: #000;
+border-color: #e4032e;
+}
+.btn-btn-outline-primary-white{
+
+    font-family: "Overpass", Roboto, "Helvetica Neue", Arial, sans-serif;       
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: white;
+    border-color:white;
+    }
+    .container-2 a:hover{
+        background-color: white;
+        color: black;
+        
+    }
+    .foot a:hover{                
+        color: #e4032e;
+        
+    }
+    .wrapper a:hover{
+        background-color: #e4032e;
+    color: white;
+    }
+    
+    
+
+
+
+
